@@ -12,15 +12,14 @@ The library is provided as a **binary XCFramework**, so end users do not need th
 
 1. In Xcode, go to **File → Add Packages → Add Package Dependency**  
 2. Enter the repository URL of this project: https://github.com/mockformedev/mockforme-ios
-3. Choose the desired version v1.0.0
+3. Choose the version v1.0.0
 4. Import the library in your Swift files and use it as:
 
 
 ```swift
 import MockForMe
-let sdk = mockforme("YOUR_TOKEN_HERE")
 
-sdk.run(
+mockforme("ACCESS_TOKEN").run(
     onSuccess: { mappings, rules in
         print("Mock API initialized successfully")
         print("Mappings:", mappings)
@@ -43,3 +42,18 @@ sdk.run(
 - This library is optimized for Swift-based projects.
 - Ensure the correct token from your MockForMe dashboard is used.
 - Async calls are fully supported for iOS 13+; iOS 12 uses legacy callbacks.
+
+> **Access Token:** To get access token visit: [https://dashboard.mockforme.com/user/token](https://dashboard.mockforme.com/user/token)
+
+> Once the configuration is complete, you can create mock APIs directly from the [MockForMe dashboard](https://dashboard.mockforme.com).
+> Simply go to Create Collection → Create API → Define API Responses.
+> 
+> For example, we’ve created a mock API with the **endpoint** `/user/me` and **method** `GET` in mockforme, which is being used in the `src/App.js` file.
+
+<hr />
+✅ That’s it! Just add these few lines and `mockforme` will start mocking your APIs.
+
+<br />
+
+👉 Watch how to create mock API using mockforme in YouTube video:
+[https://www.youtube.com/watch?v=V1_leclmpTw](https://www.youtube.com/watch?v=V1_leclmpTw)
