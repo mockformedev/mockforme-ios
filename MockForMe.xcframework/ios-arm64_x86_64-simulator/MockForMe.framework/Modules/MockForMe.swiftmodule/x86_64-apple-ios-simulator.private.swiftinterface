@@ -2,57 +2,22 @@
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios18.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MockForMe
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Combine
 import Foundation
 import Swift
+import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct MFMState : Swift.Sendable {
-  public var token: Swift.String
-  public var orgId: Swift.String?
-  public var memberKey: Swift.String?
-  public var memberCacheKey: Swift.String?
-  public var mappings: [MockForMe.ApiMapping]
-  public var rules: [MockForMe.Rule]
-  public var loggingEnabled: Swift.Bool
-  public init(token: Swift.String = "", orgId: Swift.String? = nil, memberKey: Swift.String? = nil, memberCacheKey: Swift.String? = nil, mappings: [MockForMe.ApiMapping] = [], rules: [MockForMe.Rule] = [], loggingEnabled: Swift.Bool = true)
-}
 @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
-public actor MFMEnv {
-  public static let shared: MockForMe.MFMEnv
-  public func snapshot() -> MockForMe.MFMState
-  public func update(_ edit: (inout MockForMe.MFMState) -> Swift.Void)
-  public func setToken(_ token: Swift.String)
+public class MockForMeOverlay {
+  public static let shared: MockForMe.MockForMeOverlay
+  public var floatingIconFrame: CoreFoundation.CGRect
+  public var isInspectorPresented: Swift.Bool
+  public func show()
+  public func hide()
   @objc deinit
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
-  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class MFMEnvLegacy {
-  public static let shared: MockForMe.MFMEnvLegacy
-  public func snapshotSync() -> MockForMe.MFMState
-  public func updateSync(_ edit: (inout MockForMe.MFMState) -> Swift.Void)
-  public func setTokenSync(_ token: Swift.String)
-  @objc deinit
-}
-public struct MockForMeDecrypter {
-  public static func xorCipher(input: Swift.String, key: Swift.String) -> Swift.String
-  public static func decodeBase64(_ input: Swift.String) -> Swift.String?
-  public static func decrypt(di: Swift.String, iv: Swift.String, salt: Swift.String) throws -> [[Swift.String : Any]]
-}
-extension Foundation.URLSession {
-  public func dataCompat(for request: Foundation.URLRequest, completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
-  @available(iOS 13.0, *)
-  public func dataCompat(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
-}
-public enum MFMLog {
-  public static func d(_ message: @autoclosure @escaping () -> Swift.String)
-}
-public enum NetworkUtil {
-  @available(iOS 13.0, *)
-  public static func getCompat(url: Foundation.URL, headers: [Swift.String : Swift.String] = [:]) async throws -> (Foundation.Data, Foundation.URLResponse)
-  public static func getCompat(url: Foundation.URL, headers: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
 }
 public struct Rule : Swift.Sendable {
   public enum Action : Swift.Sendable {
@@ -170,6 +135,14 @@ public actor RulesManager {
   public func matchSync(urlString: Swift.String) -> MockForMe.Rule?
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers final public class MockForMeURLProtocol : Foundation.URLProtocol {
+  @objc override final public class func canInit(with request: Foundation.URLRequest) -> Swift.Bool
+  @objc override final public class func canonicalRequest(for request: Foundation.URLRequest) -> Foundation.URLRequest
+  @objc override final public func startLoading()
+  @objc override final public func stopLoading()
+  @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: (any Foundation.URLProtocolClient)?)
+  @objc deinit
+}
 public struct ApiMapping : Swift.Codable, Swift.Sendable {
   public let apiEndpoint: Swift.String
   public let method: Swift.String?
@@ -182,6 +155,11 @@ public struct ApiMapping : Swift.Codable, Swift.Sendable {
 public enum ApiMatcher {
   public static func match(url: Foundation.URL, method: Swift.String, mappings: [MockForMe.ApiMapping]) -> MockForMe.ApiMapping?
   public static func rewrite(_ request: Foundation.URLRequest, token: Swift.String, memberCacheKey: Swift.String?, match: MockForMe.ApiMapping) -> Foundation.URLRequest
+}
+extension Foundation.URLSession {
+  public func dataCompat(for request: Foundation.URLRequest, completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
+  @available(iOS 13.0, *)
+  public func dataCompat(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
 }
 public class MockForMeCrypto {
   public init()
@@ -206,13 +184,98 @@ public class MockForMeSDK {
   @objc deinit
 }
 public typealias mockforme = MockForMe.MockForMeSDK
-@objc @_inheritsConvenienceInitializers final public class MockForMeURLProtocol : Foundation.URLProtocol {
-  @objc override final public class func canInit(with request: Foundation.URLRequest) -> Swift.Bool
-  @objc override final public class func canonicalRequest(for request: Foundation.URLRequest) -> Foundation.URLRequest
-  @objc override final public func startLoading()
-  @objc override final public func stopLoading()
-  @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: (any Foundation.URLProtocolClient)?)
+public struct LogEntry : Swift.Identifiable, Swift.Sendable {
+  public let id: Foundation.UUID
+  public let url: Swift.String
+  public let capturedURL: Swift.String
+  public let method: Swift.String
+  public let status: Swift.Int
+  public let timestamp: Foundation.Date
+  public let isMocked: Swift.Bool
+  public let ruleId: Swift.String?
+  public let ruleAction: Swift.String?
+  public let errorMessage: Swift.String?
+  public let requestHeaders: [Swift.String : Swift.String]?
+  public let responseHeaders: [Swift.String : Swift.String]?
+  public var statusString: Swift.String {
+    get
+  }
+  public var relativeURL: Swift.String {
+    get
+  }
+  public var displayURL: Swift.String {
+    get
+  }
+  public var requestCookies: [Swift.String : Swift.String] {
+    get
+  }
+  public var responseCookies: [Swift.String : Swift.String] {
+    get
+  }
+  public typealias ID = Foundation.UUID
+}
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+public class NetworkLogger : Foundation.ObservableObject {
+  public static let shared: MockForMe.NetworkLogger
+  @Combine.Published @_projectedValueProperty($logs) public var logs: [MockForMe.LogEntry] {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    _modify
+  }
+  public var $logs: Combine.Published<[MockForMe.LogEntry]>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public func addLog(url: Swift.String, capturedURL: Swift.String? = nil, method: Swift.String, status: Swift.Int, isMocked: Swift.Bool, ruleId: Swift.String? = nil, ruleAction: Swift.String? = nil, errorMessage: Swift.String? = nil, requestHeaders: [Swift.String : Swift.String]? = nil, responseHeaders: [Swift.String : Swift.String]? = nil)
+  public func clear()
+  @available(iOS 13.0, *)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public struct MFMState : Swift.Sendable {
+  public var token: Swift.String
+  public var orgId: Swift.String?
+  public var memberKey: Swift.String?
+  public var memberCacheKey: Swift.String?
+  public var mappings: [MockForMe.ApiMapping]
+  public var rules: [MockForMe.Rule]
+  public var loggingEnabled: Swift.Bool
+  public init(token: Swift.String = "", orgId: Swift.String? = nil, memberKey: Swift.String? = nil, memberCacheKey: Swift.String? = nil, mappings: [MockForMe.ApiMapping] = [], rules: [MockForMe.Rule] = [], loggingEnabled: Swift.Bool = true)
+}
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+public actor MFMEnv {
+  public static let shared: MockForMe.MFMEnv
+  public func snapshot() -> MockForMe.MFMState
+  public func update(_ edit: (inout MockForMe.MFMState) -> Swift.Void)
+  public func setToken(_ token: Swift.String)
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class MFMEnvLegacy {
+  public static let shared: MockForMe.MFMEnvLegacy
+  public func snapshotSync() -> MockForMe.MFMState
+  public func updateSync(_ edit: (inout MockForMe.MFMState) -> Swift.Void)
+  public func setTokenSync(_ token: Swift.String)
+  @objc deinit
+}
+public struct MockForMeDecrypter {
+  public static func xorCipher(input: Swift.String, key: Swift.String) -> Swift.String
+  public static func decodeBase64(_ input: Swift.String) -> Swift.String?
+  public static func decrypt(di: Swift.String, iv: Swift.String, salt: Swift.String) throws -> [[Swift.String : Any]]
+}
+public enum NetworkUtil {
+  @available(iOS 13.0, *)
+  public static func getCompat(url: Foundation.URL, headers: [Swift.String : Swift.String] = [:]) async throws -> (Foundation.Data, Foundation.URLResponse)
+  public static func getCompat(url: Foundation.URL, headers: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
+}
+public enum MFMLog {
+  public static func d(_ message: @autoclosure @escaping () -> Swift.String)
 }
 extension MockForMe.RuleCondition.CodingKeys : Swift.Equatable {}
 extension MockForMe.RuleCondition.CodingKeys : Swift.Hashable {}
