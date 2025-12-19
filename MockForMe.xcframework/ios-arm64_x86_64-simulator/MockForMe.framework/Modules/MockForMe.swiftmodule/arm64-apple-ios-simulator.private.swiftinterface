@@ -7,22 +7,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct ApiMapping : Swift.Codable, Swift.Sendable {
-  public let apiEndpoint: Swift.String
-  public let method: Swift.String?
-  public let _ack: Swift.String?
-  public let _ri_: Swift.String?
-  public init(apiEndpoint: Swift.String, method: Swift.String?, _ack: Swift.String?, _ri_: Swift.String?)
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public enum ApiMatcher {
-  public static func match(url: Foundation.URL, method: Swift.String, mappings: [MockForMe.ApiMapping]) -> MockForMe.ApiMapping?
-  public static func rewrite(_ request: Foundation.URLRequest, token: Swift.String, memberCacheKey: Swift.String?, match: MockForMe.ApiMapping) -> Foundation.URLRequest
-}
-public enum MFMLog {
-  public static func d(_ message: @autoclosure @escaping () -> Swift.String)
-}
 public struct MFMState : Swift.Sendable {
   public var token: Swift.String
   public var orgId: Swift.String?
@@ -52,41 +36,18 @@ public actor MFMEnv {
   public func setTokenSync(_ token: Swift.String)
   @objc deinit
 }
-public class MockForMeCrypto {
-  public init()
-  public func decrypt(di: Swift.String, iv: Swift.String, orgId: Swift.String) throws -> Swift.String
-  @objc deinit
-}
-public enum MockForMeError : Swift.Error {
-  case missingToken
-  case invalidResponse
-  case decryptFailed
-  public static func == (a: MockForMe.MockForMeError, b: MockForMe.MockForMeError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public class MockForMeSDK {
-  public init(_ token: Swift.String)
-  @discardableResult
-  public func run(gatewayURL: Foundation.URL = URL(string: "https://api.mockforme.com/gateway/3f4eae522b")!, decrypter: MockForMe.MockForMeCrypto? = MockForMeCrypto(), enableLogs: Swift.Bool = true, onSuccess: @escaping ([MockForMe.ApiMapping], [MockForMe.Rule]) -> Swift.Void = { _, _ in }, onError: @escaping (any Swift.Error) -> Swift.Void = { _ in })
-  public func uninstall()
-  @objc deinit
-}
-public typealias mockforme = MockForMe.MockForMeSDK
 public struct MockForMeDecrypter {
   public static func xorCipher(input: Swift.String, key: Swift.String) -> Swift.String
   public static func decodeBase64(_ input: Swift.String) -> Swift.String?
   public static func decrypt(di: Swift.String, iv: Swift.String, salt: Swift.String) throws -> [[Swift.String : Any]]
 }
-@objc @_inheritsConvenienceInitializers final public class MockForMeURLProtocol : Foundation.URLProtocol {
-  @objc override final public class func canInit(with request: Foundation.URLRequest) -> Swift.Bool
-  @objc override final public class func canonicalRequest(for request: Foundation.URLRequest) -> Foundation.URLRequest
-  @objc override final public func startLoading()
-  @objc override final public func stopLoading()
-  @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: (any Foundation.URLProtocolClient)?)
-  @objc deinit
+extension Foundation.URLSession {
+  public func dataCompat(for request: Foundation.URLRequest, completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
+  @available(iOS 13.0, *)
+  public func dataCompat(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
+}
+public enum MFMLog {
+  public static func d(_ message: @autoclosure @escaping () -> Swift.String)
 }
 public enum NetworkUtil {
   @available(iOS 13.0, *)
@@ -209,13 +170,52 @@ public actor RulesManager {
   public func matchSync(urlString: Swift.String) -> MockForMe.Rule?
   @objc deinit
 }
-extension Foundation.URLSession {
-  public func dataCompat(for request: Foundation.URLRequest, completion: @escaping (Swift.Result<(Foundation.Data, Foundation.URLResponse), any Swift.Error>) -> Swift.Void)
-  @available(iOS 13.0, *)
-  public func dataCompat(for request: Foundation.URLRequest) async throws -> (Foundation.Data, Foundation.URLResponse)
+public struct ApiMapping : Swift.Codable, Swift.Sendable {
+  public let apiEndpoint: Swift.String
+  public let method: Swift.String?
+  public let _ack: Swift.String?
+  public let _ri_: Swift.String?
+  public init(apiEndpoint: Swift.String, method: Swift.String?, _ack: Swift.String?, _ri_: Swift.String?)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-extension MockForMe.MockForMeError : Swift.Equatable {}
-extension MockForMe.MockForMeError : Swift.Hashable {}
+public enum ApiMatcher {
+  public static func match(url: Foundation.URL, method: Swift.String, mappings: [MockForMe.ApiMapping]) -> MockForMe.ApiMapping?
+  public static func rewrite(_ request: Foundation.URLRequest, token: Swift.String, memberCacheKey: Swift.String?, match: MockForMe.ApiMapping) -> Foundation.URLRequest
+}
+public class MockForMeCrypto {
+  public init()
+  public func decrypt(di: Swift.String, iv: Swift.String, orgId: Swift.String) throws -> Swift.String
+  @objc deinit
+}
+public enum MockForMeError : Swift.Error {
+  case missingToken
+  case invalidResponse
+  case decryptFailed
+  public static func == (a: MockForMe.MockForMeError, b: MockForMe.MockForMeError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class MockForMeSDK {
+  public init(_ token: Swift.String)
+  @discardableResult
+  public func run(gatewayURL: Foundation.URL = URL(string: "https://api.mockforme.com/gateway/3f4eae522b")!, decrypter: MockForMe.MockForMeCrypto? = MockForMeCrypto(), enableLogs: Swift.Bool = true, onSuccess: @escaping ([MockForMe.ApiMapping], [MockForMe.Rule]) -> Swift.Void = { _, _ in }, onError: @escaping (any Swift.Error) -> Swift.Void = { _ in })
+  public func uninstall()
+  @objc deinit
+}
+public typealias mockforme = MockForMe.MockForMeSDK
+@objc @_inheritsConvenienceInitializers final public class MockForMeURLProtocol : Foundation.URLProtocol {
+  @objc override final public class func canInit(with request: Foundation.URLRequest) -> Swift.Bool
+  @objc override final public class func canonicalRequest(for request: Foundation.URLRequest) -> Foundation.URLRequest
+  @objc override final public func startLoading()
+  @objc override final public func stopLoading()
+  @objc override dynamic public init(request: Foundation.URLRequest, cachedResponse: Foundation.CachedURLResponse?, client: (any Foundation.URLProtocolClient)?)
+  @objc deinit
+}
 extension MockForMe.RuleCondition.CodingKeys : Swift.Equatable {}
 extension MockForMe.RuleCondition.CodingKeys : Swift.Hashable {}
 extension MockForMe.RuleCondition.CodingKeys : Swift.RawRepresentable {}
+extension MockForMe.MockForMeError : Swift.Equatable {}
+extension MockForMe.MockForMeError : Swift.Hashable {}

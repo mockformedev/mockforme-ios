@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uyGQ2C2yhQsPIN/75urlnex/EPk=
+		IybAfpiAhUzQTlaEs5BGTQWXiHc=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Up90K2LSoKUdQyVX8AqN8ePbJOY=
+		0Yi1FpCFH7a08YgzXjuD5p1G47s=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Up90K2LSoKUdQyVX8AqN8ePbJOY=
+		0Yi1FpCFH7a08YgzXjuD5p1G47s=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rHwPae4mPR3ancSD55d1NRKM820=
+		kx4epB618F2NsoHtGeoZJoGOQnc=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uyGQ2C2yhQsPIN/75urlnex/EPk=
+		IybAfpiAhUzQTlaEs5BGTQWXiHc=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pMVOl48VOo0y1PjPEs1M5hGCz9Y=
+		s38LyyNsjbWaLXCa5irCEqHjeBs=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pMVOl48VOo0y1PjPEs1M5hGCz9Y=
+		s38LyyNsjbWaLXCa5irCEqHjeBs=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		plEXDmWNC98qW1d30ZPP9jgVWAU=
+		S8wTd1GdhV/5JacTXcBzc6gfA5I=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxwzL4bwDOl+16aBFcWDrJs1h4rSh0OmNu6nkYoDTAE=
+			mD6rdB37zItKq6bJqDySj/5YhJTtb9j+8q5f+HsdgJ0=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T9bOzIX7IKN3UuthJaTVlC+MlEwlAkP05cTJCr/tIDg=
+			4rGcZ8xpO/QkajBC51lrhDj5HuawUGesOn+AW/N+Hi0=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T9bOzIX7IKN3UuthJaTVlC+MlEwlAkP05cTJCr/tIDg=
+			4rGcZ8xpO/QkajBC51lrhDj5HuawUGesOn+AW/N+Hi0=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			72hbJ2rPl/M/QTvNhkHOh6tKiFzMRgNuJD5dADq6awc=
+			TPD8htTI5XF6SgwHAk8Jse+1WvQia6e5IU8LGMBC/MU=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxwzL4bwDOl+16aBFcWDrJs1h4rSh0OmNu6nkYoDTAE=
+			mD6rdB37zItKq6bJqDySj/5YhJTtb9j+8q5f+HsdgJ0=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHS6xoTymgbKqbNrjtJvd+iw1uRLvXfDc2umt+Mgd+Y=
+			hs4QrnHBsTQaPGkKPXXyuhseukU7knkRv93fhuGu/YE=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHS6xoTymgbKqbNrjtJvd+iw1uRLvXfDc2umt+Mgd+Y=
+			hs4QrnHBsTQaPGkKPXXyuhseukU7knkRv93fhuGu/YE=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cexM5O3iuWolGmuOIeS7RZB9heVndfGSTY9X/azR5D4=
+			q2lN134RQJ+170mx9kYyfPcC8zZyEuculCe+avQx1Qw=
 			</data>
 		</dict>
 	</dict>

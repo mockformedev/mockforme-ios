@@ -13,628 +13,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "ApiMapping",
-        "printedName": "ApiMapping",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "apiEndpoint",
-            "printedName": "apiEndpoint",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9MockForMe10ApiMappingV11apiEndpointSSvp",
-            "mangledName": "$s9MockForMe10ApiMappingV11apiEndpointSSvp",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9MockForMe10ApiMappingV11apiEndpointSSvg",
-                "mangledName": "$s9MockForMe10ApiMappingV11apiEndpointSSvg",
-                "moduleName": "MockForMe",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "method",
-            "printedName": "method",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9MockForMe10ApiMappingV6methodSSSgvp",
-            "mangledName": "$s9MockForMe10ApiMappingV6methodSSSgvp",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9MockForMe10ApiMappingV6methodSSSgvg",
-                "mangledName": "$s9MockForMe10ApiMappingV6methodSSSgvg",
-                "moduleName": "MockForMe",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "_ack",
-            "printedName": "_ack",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9MockForMe10ApiMappingV4_ackSSSgvp",
-            "mangledName": "$s9MockForMe10ApiMappingV4_ackSSSgvp",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9MockForMe10ApiMappingV4_ackSSSgvg",
-                "mangledName": "$s9MockForMe10ApiMappingV4_ackSSSgvg",
-                "moduleName": "MockForMe",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "_ri_",
-            "printedName": "_ri_",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9MockForMe10ApiMappingV4_ri_SSSgvp",
-            "mangledName": "$s9MockForMe10ApiMappingV4_ri_SSSgvp",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9MockForMe10ApiMappingV4_ri_SSSgvg",
-                "mangledName": "$s9MockForMe10ApiMappingV4_ri_SSSgvg",
-                "moduleName": "MockForMe",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(apiEndpoint:method:_ack:_ri_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ApiMapping",
-                "printedName": "MockForMe.ApiMapping",
-                "usr": "s:9MockForMe10ApiMappingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9MockForMe10ApiMappingV11apiEndpoint6method4_ack4_ri_ACSS_SSSgA2Htcfc",
-            "mangledName": "$s9MockForMe10ApiMappingV11apiEndpoint6method4_ack4_ri_ACSS_SSSgA2Htcfc",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ApiMapping",
-                "printedName": "MockForMe.ApiMapping",
-                "usr": "s:9MockForMe10ApiMappingV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9MockForMe10ApiMappingV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s9MockForMe10ApiMappingV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "MockForMe",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe10ApiMappingV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s9MockForMe10ApiMappingV6encode2toys7Encoder_p_tKF",
-            "moduleName": "MockForMe",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:9MockForMe10ApiMappingV",
-        "mangledName": "$s9MockForMe10ApiMappingV",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ApiMatcher",
-        "printedName": "ApiMatcher",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "match",
-            "printedName": "match(url:method:mappings:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MockForMe.ApiMapping?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApiMapping",
-                    "printedName": "MockForMe.ApiMapping",
-                    "usr": "s:9MockForMe10ApiMappingV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MockForMe.ApiMapping]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ApiMapping",
-                    "printedName": "MockForMe.ApiMapping",
-                    "usr": "s:9MockForMe10ApiMappingV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe10ApiMatcherO5match3url6method8mappingsAA0D7MappingVSg10Foundation3URLV_SSSayAIGtFZ",
-            "mangledName": "$s9MockForMe10ApiMatcherO5match3url6method8mappingsAA0D7MappingVSg10Foundation3URLV_SSSayAIGtFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "rewrite",
-            "printedName": "rewrite(_:token:memberCacheKey:match:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ApiMapping",
-                "printedName": "MockForMe.ApiMapping",
-                "usr": "s:9MockForMe10ApiMappingV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe10ApiMatcherO7rewrite_5token14memberCacheKey5match10Foundation10URLRequestVAJ_S2SSgAA0D7MappingVtFZ",
-            "mangledName": "$s9MockForMe10ApiMatcherO7rewrite_5token14memberCacheKey5match10Foundation10URLRequestVAJ_S2SSgAA0D7MappingVtFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:9MockForMe10ApiMatcherO",
-        "mangledName": "$s9MockForMe10ApiMatcherO",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MockForMe"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MFMLog",
-        "printedName": "MFMLog",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "d",
-            "printedName": "d(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Swift.String",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe6MFMLogO1dyySSyXAFZ",
-            "mangledName": "$s9MockForMe6MFMLogO1dyySSyXAFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:9MockForMe6MFMLogO",
-        "mangledName": "$s9MockForMe6MFMLogO",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MockForMe"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "MFMState",
         "printedName": "MFMState",
         "children": [
@@ -1925,566 +1303,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MockForMeCrypto",
-        "printedName": "MockForMeCrypto",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MockForMeCrypto",
-                "printedName": "MockForMe.MockForMeCrypto",
-                "usr": "s:9MockForMe0abC6CryptoC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9MockForMe0abC6CryptoCACycfc",
-            "mangledName": "$s9MockForMe0abC6CryptoCACycfc",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "decrypt",
-            "printedName": "decrypt(di:iv:orgId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe0abC6CryptoC7decrypt2di2iv5orgIdS2S_S2StKF",
-            "mangledName": "$s9MockForMe0abC6CryptoC7decrypt2di2iv5orgIdS2S_S2StKF",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:9MockForMe0abC6CryptoC",
-        "mangledName": "$s9MockForMe0abC6CryptoC",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MockForMeError",
-        "printedName": "MockForMeError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "missingToken",
-            "printedName": "missingToken",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MockForMeError",
-                    "printedName": "MockForMe.MockForMeError",
-                    "usr": "s:9MockForMe0abC5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MockForMe.MockForMeError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MockForMeError",
-                        "printedName": "MockForMe.MockForMeError",
-                        "usr": "s:9MockForMe0abC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:9MockForMe0abC5ErrorO12missingTokenyA2CmF",
-            "mangledName": "$s9MockForMe0abC5ErrorO12missingTokenyA2CmF",
-            "moduleName": "MockForMe"
-          },
-          {
-            "kind": "Var",
-            "name": "invalidResponse",
-            "printedName": "invalidResponse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MockForMeError",
-                    "printedName": "MockForMe.MockForMeError",
-                    "usr": "s:9MockForMe0abC5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MockForMe.MockForMeError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MockForMeError",
-                        "printedName": "MockForMe.MockForMeError",
-                        "usr": "s:9MockForMe0abC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:9MockForMe0abC5ErrorO15invalidResponseyA2CmF",
-            "mangledName": "$s9MockForMe0abC5ErrorO15invalidResponseyA2CmF",
-            "moduleName": "MockForMe"
-          },
-          {
-            "kind": "Var",
-            "name": "decryptFailed",
-            "printedName": "decryptFailed",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MockForMeError",
-                    "printedName": "MockForMe.MockForMeError",
-                    "usr": "s:9MockForMe0abC5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "MockForMe.MockForMeError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MockForMeError",
-                        "printedName": "MockForMe.MockForMeError",
-                        "usr": "s:9MockForMe0abC5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:9MockForMe0abC5ErrorO13decryptFailedyA2CmF",
-            "mangledName": "$s9MockForMe0abC5ErrorO13decryptFailedyA2CmF",
-            "moduleName": "MockForMe"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MockForMeError",
-                "printedName": "MockForMe.MockForMeError",
-                "usr": "s:9MockForMe0abC5ErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MockForMeError",
-                "printedName": "MockForMe.MockForMeError",
-                "usr": "s:9MockForMe0abC5ErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe0abC5ErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s9MockForMe0abC5ErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9MockForMe0abC5ErrorO9hashValueSivp",
-            "mangledName": "$s9MockForMe0abC5ErrorO9hashValueSivp",
-            "moduleName": "MockForMe",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9MockForMe0abC5ErrorO9hashValueSivg",
-                "mangledName": "$s9MockForMe0abC5ErrorO9hashValueSivg",
-                "moduleName": "MockForMe",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe0abC5ErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s9MockForMe0abC5ErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "MockForMe",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:9MockForMe0abC5ErrorO",
-        "mangledName": "$s9MockForMe0abC5ErrorO",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MockForMeSDK",
-        "printedName": "MockForMeSDK",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MockForMeSDK",
-                "printedName": "MockForMe.MockForMeSDK",
-                "usr": "s:9MockForMe0abC3SDKC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9MockForMe0abC3SDKCyACSScfc",
-            "mangledName": "$s9MockForMe0abC3SDKCyACSScfc",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "run",
-            "printedName": "run(gatewayURL:decrypter:enableLogs:onSuccess:onError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "hasDefaultArg": true,
-                "usr": "s:10Foundation3URLV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MockForMe.MockForMeCrypto?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MockForMeCrypto",
-                    "printedName": "MockForMe.MockForMeCrypto",
-                    "usr": "s:9MockForMe0abC6CryptoC"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([MockForMe.ApiMapping], [MockForMe.Rule]) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "([MockForMe.ApiMapping], [MockForMe.Rule])",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[MockForMe.ApiMapping]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ApiMapping",
-                            "printedName": "MockForMe.ApiMapping",
-                            "usr": "s:9MockForMe10ApiMappingV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[MockForMe.Rule]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Rule",
-                            "printedName": "MockForMe.Rule",
-                            "usr": "s:9MockForMe4RuleV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(any Swift.Error) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "any Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ],
-                "hasDefaultArg": true
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe0abC3SDKC3run10gatewayURL9decrypter10enableLogs9onSuccess0K5Errory10Foundation0G0V_AA0abC6CryptoCSgSbySayAA10ApiMappingVG_SayAA4RuleVGtcys0M0_pctF",
-            "mangledName": "$s9MockForMe0abC3SDKC3run10gatewayURL9decrypter10enableLogs9onSuccess0K5Errory10Foundation0G0V_AA0abC6CryptoCSgSbySayAA10ApiMappingVG_SayAA4RuleVGtcys0M0_pctF",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl",
-              "DiscardableResult"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "uninstall",
-            "printedName": "uninstall()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9MockForMe0abC3SDKC9uninstallyyF",
-            "mangledName": "$s9MockForMe0abC3SDKC9uninstallyyF",
-            "moduleName": "MockForMe",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:9MockForMe0abC3SDKC",
-        "mangledName": "$s9MockForMe0abC3SDKC",
-        "moduleName": "MockForMe",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MockForMe"
-      },
-      {
-        "kind": "TypeDecl",
         "name": "MockForMeDecrypter",
         "printedName": "MockForMeDecrypter",
         "children": [
@@ -2656,201 +1474,63 @@
         "moduleName": "MockForMe"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MockForMe"
+      },
+      {
         "kind": "TypeDecl",
-        "name": "MockForMeURLProtocol",
-        "printedName": "MockForMeURLProtocol",
+        "name": "MFMLog",
+        "printedName": "MFMLog",
         "children": [
           {
             "kind": "Function",
-            "name": "canInit",
-            "printedName": "canInit(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(cm)canInitWithRequest:",
-            "mangledName": "$s9MockForMe0abC11URLProtocolC7canInit4withSb10Foundation10URLRequestV_tFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "overriding": true,
-            "objc_name": "canInitWithRequest:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "canonicalRequest",
-            "printedName": "canonicalRequest(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(cm)canonicalRequestForRequest:",
-            "mangledName": "$s9MockForMe0abC11URLProtocolC16canonicalRequest3for10Foundation10URLRequestVAH_tFZ",
-            "moduleName": "MockForMe",
-            "static": true,
-            "overriding": true,
-            "objc_name": "canonicalRequestForRequest:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startLoading",
-            "printedName": "startLoading()",
+            "name": "d",
+            "printedName": "d(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)startLoading",
-            "mangledName": "$s9MockForMe0abC11URLProtocolC12startLoadingyyF",
-            "moduleName": "MockForMe",
-            "overriding": true,
-            "objc_name": "startLoading",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopLoading",
-            "printedName": "stopLoading()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)stopLoading",
-            "mangledName": "$s9MockForMe0abC11URLProtocolC11stopLoadingyyF",
-            "moduleName": "MockForMe",
-            "overriding": true,
-            "objc_name": "stopLoading",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(request:cachedResponse:client:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MockForMeURLProtocol",
-                "printedName": "MockForMe.MockForMeURLProtocol",
-                "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol"
               },
               {
-                "kind": "TypeNominal",
-                "name": "URLRequest",
-                "printedName": "Foundation.URLRequest",
-                "usr": "s:10Foundation10URLRequestV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.CachedURLResponse?",
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CachedURLResponse",
-                    "printedName": "Foundation.CachedURLResponse",
-                    "usr": "c:objc(cs)NSCachedURLResponse"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Foundation.URLProtocolClient)?",
-                "children": [
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
                   {
                     "kind": "TypeNominal",
-                    "name": "URLProtocolClient",
-                    "printedName": "any Foundation.URLProtocolClient",
-                    "usr": "c:objc(pl)NSURLProtocolClient"
+                    "name": "Void",
+                    "printedName": "()"
                   }
-                ],
-                "usr": "s:Sq"
+                ]
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)initWithRequest:cachedResponse:client:",
-            "mangledName": "$s9MockForMe0abC11URLProtocolC7request14cachedResponse6clientAC10Foundation10URLRequestV_So19NSCachedURLResponseCSgSo19NSURLProtocolClient_pSgtcfc",
+            "declKind": "Func",
+            "usr": "s:9MockForMe6MFMLogO1dyySSyXAFZ",
+            "mangledName": "$s9MockForMe6MFMLogO1dyySSyXAFZ",
             "moduleName": "MockForMe",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithRequest:cachedResponse:client:",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Class",
-        "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol",
-        "mangledName": "$s9MockForMe0abC11URLProtocolC",
+        "declKind": "Enum",
+        "usr": "s:9MockForMe6MFMLogO",
+        "mangledName": "$s9MockForMe6MFMLogO",
         "moduleName": "MockForMe",
         "declAttributes": [
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSURLProtocol",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "Foundation.URLProtocol",
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -2866,55 +1546,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -6866,6 +5497,1375 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ApiMapping",
+        "printedName": "ApiMapping",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiEndpoint",
+            "printedName": "apiEndpoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MockForMe10ApiMappingV11apiEndpointSSvp",
+            "mangledName": "$s9MockForMe10ApiMappingV11apiEndpointSSvp",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MockForMe10ApiMappingV11apiEndpointSSvg",
+                "mangledName": "$s9MockForMe10ApiMappingV11apiEndpointSSvg",
+                "moduleName": "MockForMe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MockForMe10ApiMappingV6methodSSSgvp",
+            "mangledName": "$s9MockForMe10ApiMappingV6methodSSSgvp",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MockForMe10ApiMappingV6methodSSSgvg",
+                "mangledName": "$s9MockForMe10ApiMappingV6methodSSSgvg",
+                "moduleName": "MockForMe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_ack",
+            "printedName": "_ack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MockForMe10ApiMappingV4_ackSSSgvp",
+            "mangledName": "$s9MockForMe10ApiMappingV4_ackSSSgvp",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MockForMe10ApiMappingV4_ackSSSgvg",
+                "mangledName": "$s9MockForMe10ApiMappingV4_ackSSSgvg",
+                "moduleName": "MockForMe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_ri_",
+            "printedName": "_ri_",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MockForMe10ApiMappingV4_ri_SSSgvp",
+            "mangledName": "$s9MockForMe10ApiMappingV4_ri_SSSgvp",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MockForMe10ApiMappingV4_ri_SSSgvg",
+                "mangledName": "$s9MockForMe10ApiMappingV4_ri_SSSgvg",
+                "moduleName": "MockForMe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiEndpoint:method:_ack:_ri_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiMapping",
+                "printedName": "MockForMe.ApiMapping",
+                "usr": "s:9MockForMe10ApiMappingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MockForMe10ApiMappingV11apiEndpoint6method4_ack4_ri_ACSS_SSSgA2Htcfc",
+            "mangledName": "$s9MockForMe10ApiMappingV11apiEndpoint6method4_ack4_ri_ACSS_SSSgA2Htcfc",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApiMapping",
+                "printedName": "MockForMe.ApiMapping",
+                "usr": "s:9MockForMe10ApiMappingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MockForMe10ApiMappingV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s9MockForMe10ApiMappingV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MockForMe",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe10ApiMappingV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s9MockForMe10ApiMappingV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MockForMe",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9MockForMe10ApiMappingV",
+        "mangledName": "$s9MockForMe10ApiMappingV",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiMatcher",
+        "printedName": "ApiMatcher",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "match",
+            "printedName": "match(url:method:mappings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MockForMe.ApiMapping?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiMapping",
+                    "printedName": "MockForMe.ApiMapping",
+                    "usr": "s:9MockForMe10ApiMappingV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MockForMe.ApiMapping]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiMapping",
+                    "printedName": "MockForMe.ApiMapping",
+                    "usr": "s:9MockForMe10ApiMappingV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe10ApiMatcherO5match3url6method8mappingsAA0D7MappingVSg10Foundation3URLV_SSSayAIGtFZ",
+            "mangledName": "$s9MockForMe10ApiMatcherO5match3url6method8mappingsAA0D7MappingVSg10Foundation3URLV_SSSayAIGtFZ",
+            "moduleName": "MockForMe",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewrite",
+            "printedName": "rewrite(_:token:memberCacheKey:match:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiMapping",
+                "printedName": "MockForMe.ApiMapping",
+                "usr": "s:9MockForMe10ApiMappingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe10ApiMatcherO7rewrite_5token14memberCacheKey5match10Foundation10URLRequestVAJ_S2SSgAA0D7MappingVtFZ",
+            "mangledName": "$s9MockForMe10ApiMatcherO7rewrite_5token14memberCacheKey5match10Foundation10URLRequestVAJ_S2SSgAA0D7MappingVtFZ",
+            "moduleName": "MockForMe",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9MockForMe10ApiMatcherO",
+        "mangledName": "$s9MockForMe10ApiMatcherO",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MockForMe"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MockForMeCrypto",
+        "printedName": "MockForMeCrypto",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MockForMeCrypto",
+                "printedName": "MockForMe.MockForMeCrypto",
+                "usr": "s:9MockForMe0abC6CryptoC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MockForMe0abC6CryptoCACycfc",
+            "mangledName": "$s9MockForMe0abC6CryptoCACycfc",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(di:iv:orgId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe0abC6CryptoC7decrypt2di2iv5orgIdS2S_S2StKF",
+            "mangledName": "$s9MockForMe0abC6CryptoC7decrypt2di2iv5orgIdS2S_S2StKF",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MockForMe0abC6CryptoC",
+        "mangledName": "$s9MockForMe0abC6CryptoC",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MockForMeError",
+        "printedName": "MockForMeError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "missingToken",
+            "printedName": "missingToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MockForMeError",
+                    "printedName": "MockForMe.MockForMeError",
+                    "usr": "s:9MockForMe0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MockForMe.MockForMeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MockForMeError",
+                        "printedName": "MockForMe.MockForMeError",
+                        "usr": "s:9MockForMe0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9MockForMe0abC5ErrorO12missingTokenyA2CmF",
+            "mangledName": "$s9MockForMe0abC5ErrorO12missingTokenyA2CmF",
+            "moduleName": "MockForMe"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MockForMeError",
+                    "printedName": "MockForMe.MockForMeError",
+                    "usr": "s:9MockForMe0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MockForMe.MockForMeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MockForMeError",
+                        "printedName": "MockForMe.MockForMeError",
+                        "usr": "s:9MockForMe0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9MockForMe0abC5ErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s9MockForMe0abC5ErrorO15invalidResponseyA2CmF",
+            "moduleName": "MockForMe"
+          },
+          {
+            "kind": "Var",
+            "name": "decryptFailed",
+            "printedName": "decryptFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MockForMe.MockForMeError.Type) -> MockForMe.MockForMeError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MockForMeError",
+                    "printedName": "MockForMe.MockForMeError",
+                    "usr": "s:9MockForMe0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MockForMe.MockForMeError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MockForMeError",
+                        "printedName": "MockForMe.MockForMeError",
+                        "usr": "s:9MockForMe0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9MockForMe0abC5ErrorO13decryptFailedyA2CmF",
+            "mangledName": "$s9MockForMe0abC5ErrorO13decryptFailedyA2CmF",
+            "moduleName": "MockForMe"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MockForMeError",
+                "printedName": "MockForMe.MockForMeError",
+                "usr": "s:9MockForMe0abC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MockForMeError",
+                "printedName": "MockForMe.MockForMeError",
+                "usr": "s:9MockForMe0abC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9MockForMe0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "MockForMe",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9MockForMe0abC5ErrorO9hashValueSivp",
+            "mangledName": "$s9MockForMe0abC5ErrorO9hashValueSivp",
+            "moduleName": "MockForMe",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9MockForMe0abC5ErrorO9hashValueSivg",
+                "mangledName": "$s9MockForMe0abC5ErrorO9hashValueSivg",
+                "moduleName": "MockForMe",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9MockForMe0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "MockForMe",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9MockForMe0abC5ErrorO",
+        "mangledName": "$s9MockForMe0abC5ErrorO",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MockForMeSDK",
+        "printedName": "MockForMeSDK",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MockForMeSDK",
+                "printedName": "MockForMe.MockForMeSDK",
+                "usr": "s:9MockForMe0abC3SDKC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MockForMe0abC3SDKCyACSScfc",
+            "mangledName": "$s9MockForMe0abC3SDKCyACSScfc",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "run",
+            "printedName": "run(gatewayURL:decrypter:enableLogs:onSuccess:onError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MockForMe.MockForMeCrypto?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MockForMeCrypto",
+                    "printedName": "MockForMe.MockForMeCrypto",
+                    "usr": "s:9MockForMe0abC6CryptoC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([MockForMe.ApiMapping], [MockForMe.Rule]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([MockForMe.ApiMapping], [MockForMe.Rule])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MockForMe.ApiMapping]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ApiMapping",
+                            "printedName": "MockForMe.ApiMapping",
+                            "usr": "s:9MockForMe10ApiMappingV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[MockForMe.Rule]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Rule",
+                            "printedName": "MockForMe.Rule",
+                            "usr": "s:9MockForMe4RuleV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe0abC3SDKC3run10gatewayURL9decrypter10enableLogs9onSuccess0K5Errory10Foundation0G0V_AA0abC6CryptoCSgSbySayAA10ApiMappingVG_SayAA4RuleVGtcys0M0_pctF",
+            "mangledName": "$s9MockForMe0abC3SDKC3run10gatewayURL9decrypter10enableLogs9onSuccess0K5Errory10Foundation0G0V_AA0abC6CryptoCSgSbySayAA10ApiMappingVG_SayAA4RuleVGtcys0M0_pctF",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uninstall",
+            "printedName": "uninstall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MockForMe0abC3SDKC9uninstallyyF",
+            "mangledName": "$s9MockForMe0abC3SDKC9uninstallyyF",
+            "moduleName": "MockForMe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MockForMe0abC3SDKC",
+        "mangledName": "$s9MockForMe0abC3SDKC",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MockForMe"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MockForMeURLProtocol",
+        "printedName": "MockForMeURLProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canInit",
+            "printedName": "canInit(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(cm)canInitWithRequest:",
+            "mangledName": "$s9MockForMe0abC11URLProtocolC7canInit4withSb10Foundation10URLRequestV_tFZ",
+            "moduleName": "MockForMe",
+            "static": true,
+            "overriding": true,
+            "objc_name": "canInitWithRequest:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canonicalRequest",
+            "printedName": "canonicalRequest(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(cm)canonicalRequestForRequest:",
+            "mangledName": "$s9MockForMe0abC11URLProtocolC16canonicalRequest3for10Foundation10URLRequestVAH_tFZ",
+            "moduleName": "MockForMe",
+            "static": true,
+            "overriding": true,
+            "objc_name": "canonicalRequestForRequest:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLoading",
+            "printedName": "startLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)startLoading",
+            "mangledName": "$s9MockForMe0abC11URLProtocolC12startLoadingyyF",
+            "moduleName": "MockForMe",
+            "overriding": true,
+            "objc_name": "startLoading",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopLoading",
+            "printedName": "stopLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)stopLoading",
+            "mangledName": "$s9MockForMe0abC11URLProtocolC11stopLoadingyyF",
+            "moduleName": "MockForMe",
+            "overriding": true,
+            "objc_name": "stopLoading",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(request:cachedResponse:client:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MockForMeURLProtocol",
+                "printedName": "MockForMe.MockForMeURLProtocol",
+                "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.CachedURLResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CachedURLResponse",
+                    "printedName": "Foundation.CachedURLResponse",
+                    "usr": "c:objc(cs)NSCachedURLResponse"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Foundation.URLProtocolClient)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLProtocolClient",
+                    "printedName": "any Foundation.URLProtocolClient",
+                    "usr": "c:objc(pl)NSURLProtocolClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol(im)initWithRequest:cachedResponse:client:",
+            "mangledName": "$s9MockForMe0abC11URLProtocolC7request14cachedResponse6clientAC10Foundation10URLRequestV_So19NSCachedURLResponseCSgSo19NSURLProtocolClient_pSgtcfc",
+            "moduleName": "MockForMe",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithRequest:cachedResponse:client:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MockForMe@objc(cs)MockForMeURLProtocol",
+        "mangledName": "$s9MockForMe0abC11URLProtocolC",
+        "moduleName": "MockForMe",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSURLProtocol",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Foundation.URLProtocol",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "URLSession",
         "printedName": "URLSession",
         "children": [
@@ -7080,109 +7080,109 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "StringLiteral",
       "offset": 102,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "Array",
       "offset": 248,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "Array",
       "offset": 282,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "BooleanLiteral",
       "offset": 323,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "Array",
       "offset": 533,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "Array",
       "offset": 569,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MFMStore.swift",
       "kind": "BooleanLiteral",
       "offset": 612,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MockForMe.swift",
-      "kind": "StringLiteral",
-      "offset": 1302,
-      "length": 46,
-      "value": "\"https:\/\/api.mockforme.com\/gateway\/3f4eae522b\""
-    },
-    {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/MockForMe.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1436,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/NetworkUtil.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/NetworkUtil.swift",
       "kind": "Dictionary",
       "offset": 145,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/NetworkUtil.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/NetworkUtil.swift",
       "kind": "Dictionary",
       "offset": 479,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/Rules.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/Rules.swift",
       "kind": "StringLiteral",
       "offset": 3310,
       "length": 10,
       "value": "\"operator\""
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/Rules.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/Rules.swift",
       "kind": "Array",
       "offset": 3850,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/MockForMeFramework\/MockForMe\/MockForMe\/Sources\/MockForMe\/Rules.swift",
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/Rules.swift",
       "kind": "Array",
       "offset": 4745,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MockForMe.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
+      "length": 46,
+      "value": "\"https:\/\/api.mockforme.com\/gateway\/3f4eae522b\""
+    },
+    {
+      "filePath": "\/Users\/sushilkumar\/projects\/iOSApp\/mockforme-ios-library-framework\/MockForMe\/Sources\/MockForMe\/MockForMe.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1436,
+      "length": 4,
+      "value": "true"
     }
   ]
 }
