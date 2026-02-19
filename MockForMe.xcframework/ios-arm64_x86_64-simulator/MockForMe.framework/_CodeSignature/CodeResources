@@ -10,43 +10,43 @@
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		U0Wu0diS/k4EDeCywytGoEGQOQ0=
+		rEBRb8ExhOqZ+8WPAREm38Xz7f8=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nZ7PEATFAlmV8VPgTXhlcnA+mk8=
+		opnU9RfjDwc3kJFVRObk9+0tbIM=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/litunbRqZ4Bvc8gVruYy1YvV+E=
+		cIKkSh/GsRcE54RAD+PgavR6tao=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nZ7PEATFAlmV8VPgTXhlcnA+mk8=
+		opnU9RfjDwc3kJFVRObk9+0tbIM=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KAVgh/jmPNowb5Meqdgm7s+iqoI=
+		rPFpfPJQKbToOW628dFlphSMul0=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		U0Wu0diS/k4EDeCywytGoEGQOQ0=
+		rEBRb8ExhOqZ+8WPAREm38Xz7f8=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kuIFnMOHDXVQA0BMx2Y09nsx8aw=
+		W/yLoQD7gJ6+MQQSn19hAGrUHlI=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WwofJ4Zxztqq1deehS3PckxxGAQ=
+		bIP1ed5MX4PNqhYmk9sSGqs1D24=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kuIFnMOHDXVQA0BMx2Y09nsx8aw=
+		W/yLoQD7gJ6+MQQSn19hAGrUHlI=
 		</data>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GSPtqMFbtuU5aIcMps28Z2E7e14=
+		zRcKWtB+mqk2SSJgn4NfBpMACTA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vOm08WSKidJJJVX5pYXNkZL0+O9p+d//wSRsdkdYLD0=
+			KohOurxdXjNhJfCMRhiaBAKIoPsEkA1+wVVkK4U9Asw=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tRAt9pamn8TbFLpOrwYx9Y60YmxJ2/ZyQAxnDnKKAYo=
+			mEqXSzXtRK9AJEZ5kyGLGaG4YlS9Pl8PToQk+TaaYwk=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			reMvy/4V9Im136rjBtdaLsMEG4czNbj8K66jByBtWjI=
+			CWF9GWYGCRt3dyJieNOse6IkT42UVBP4hMCSSsJL6v4=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tRAt9pamn8TbFLpOrwYx9Y60YmxJ2/ZyQAxnDnKKAYo=
+			mEqXSzXtRK9AJEZ5kyGLGaG4YlS9Pl8PToQk+TaaYwk=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lflx+eLuC/bMYBO4eT15SsJOhdMZhi2+1JlYpJMMz8w=
+			fJCB3YK+VvxPlMfgNkaHy7caIm7ETjBLXl5spigW2BQ=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vOm08WSKidJJJVX5pYXNkZL0+O9p+d//wSRsdkdYLD0=
+			KohOurxdXjNhJfCMRhiaBAKIoPsEkA1+wVVkK4U9Asw=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oIlCTASMSgjyUL6zZP6MhqE1fJo7YbTOUejrXkt3lI=
+			ZXf4OyZLvMEIeR73PF9nlTQ7T+JNKizHDLZRRgoURB4=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+BIswh/6/0vPn3OMAxo67es8pNwVvEZtWYnPkjMT5Y4=
+			cO89FRMilBx2G9dm8aHjYLLNFEntG8eulgnhNXkBric=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6oIlCTASMSgjyUL6zZP6MhqE1fJo7YbTOUejrXkt3lI=
+			ZXf4OyZLvMEIeR73PF9nlTQ7T+JNKizHDLZRRgoURB4=
 			</data>
 		</dict>
 		<key>Modules/MockForMe.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UVkpCSmebWevWS/FEOHaVAqwZEH3oz+RXS4kw3XN7TM=
+			VRD7tMXnHfNX8d15nB9yexzMB3xW+fVm3ANz0mh+s9k=
 			</data>
 		</dict>
 	</dict>
